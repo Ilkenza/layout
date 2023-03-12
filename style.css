@@ -1,0 +1,59 @@
+.hamb{
+    border: none;
+}
+.hamb:focus{
+    box-shadow: none;
+}
+.fl{
+    justify-content: end;
+    padding-right: 5rem;
+}
+.fx{
+    display: flex;   
+}
+.c{
+    --bs-gutter-x:0rem;
+    background-image: url(./images/hero.jpg);
+    height: 61vh;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    padding: 6rem;
+}
+.co{
+    background-color: #34C089;
+    color: white;
+}
+.gr{
+    background-color: #212121;
+    padding: 4rem;
+}
+.b{
+    border-top: 1px solid #6c757d4b;
+    list-style: none;
+}
+.tx{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+}
+.f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+@media all and (max-width:1600px){
+    .c{
+        max-height: 61vh;
+        height: 100%;
+    }
+}
+@media all and (max-width:600px){
+    .c{
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+}
+
